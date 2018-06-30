@@ -1,0 +1,231 @@
+# rollover de usuário {
+    fundo: gradiente linear (135deg, hsla (0,0%, 20%, 0,6), hsla (0,0%, 0%, 0,6));
+    box-shadow: 0 0 10px # 000;
+}
+# user-rollover .info {
+    fundo: gradiente linear (hsl (302, 100%, 40%, 0,5), hsl (302, 100%, 30%, 0,5));
+    box-shadow: 0px -2px 10px -1px # 000;
+}
+
+# rollover de usuário .info i + span {
+    text-shadow: 0 0 5px # 000;
+}
+.polegar {
+    fundo: hsla (210,10%, 10%, 0,4);
+}
+# user-rollover .info .badge-box,
+# user-rollover .background,
+# video-only-dj .background,
+# sugestão de pesquisa,
+# search-suggestion ul {
+    fundo: rgba (0,0,0,0);
+}
+.thumb.large,
+.polegar,
+# rollover de usuário .meta.online .thumb {
+    border-color: hsl (80,70%, 50%)! importante;
+    box-shadow: 0 0 7px hsl (80,70%, 50%)! importante;
+}
+.thumb.large,
+# rollover de usuário .meta.online .thumb.large {
+    box-shadow: 0 0 15px hsl (80,70%, 50%)! importante;
+}
+# user-rollover.is-staff .meta.online .thumb,
+#waitlist .is-staff .thumb {
+    border-color: hsl (270,50%, 50%)! importante;
+    box-shadow: 0 0 7px hsl (270,50%, 50%)! importante;
+}
+# user-rollover.is-staff .meta.online .thumb.large {
+    box-shadow: 0 0 15px hsl (270,50%, 50%)! importante;
+}
+# user-rollover .meta.subscriber .thumb,
+#waitlist .is-subscriber .thumb {
+    border-color: hsl (45,80%, 45%)! importante;
+    box-shadow: 0 0 7px hsl (45,80%, 45%)! importante;
+}
+# user-rollover .meta.subscriber .thumb.large {
+    box-shadow: 0 0 15px hsl (45,80%, 45%)! importante;
+}
+# rollover de usuário .meta.online .status i {
+    Mostrar nenhum;
+}
+# rollover de usuário .meta.online .status span {
+    cor: hsl (80,70%, 50%);
+    margem esquerda: 0;
+}
+
+# rollover de usuário .meta.offline .status i {
+	top: 0px! important;
+}
+
+.offline .thumb {
+    border-color: hsl (0,0%, 40%)! importante;
+    box-shadow: nenhum! importante;
+}
+# rollover de usuário .action {
+    fundo: gradiente radial (hsla (0,0%, 7%, 0,8), hsla (0,0%, 0%, 0,8)) importante;
+    box-shadow: 0 0 2px 1px # 151515! importante;
+}
+# rollover de usuário .action: hover {
+    fundo: gradiente radial (hsla (303, 100%, 30%, 0,9), hsla (300, 100%, 20%, 0,9)) importante;
+    box-shadow: inserir 0 0 50px # 000! important;
+}
+.signed-in .community__top-right .btn-subscribe {
+    exibir: nenhum! importante;
+}
+.user-content.profile .meta {
+    margin-top: 60px! importante;
+}
+.user-level-dropdown__level-text {
+    cor: # ff00f2! importante;
+}
+.user-level-dropdown__level-number .fa,
+.user-level-dropdown__progress .progress .progress-bar, .btn-level {
+    background-color: # ff00f2! importante;
+    cor: #fff;
+}
+.btn-level {
+    cor: #fff 
+}
+dropdown .user-level .user-name {
+    font-weight: 500;
+}
+
+@media (min-width: 576px) {
+.community__right-bar, # user-lists, #waitlist,
+.community .friends, # rcs-menu {
+    altura: 83,2%! importante;
+}
+}
+
+@media (min-width: 980px) {
+.community__right-bar, # user-lists, #waitlist,
+.community .friends, # rcs-menu {
+    altura: 90,60%! importante;
+}
+}
+
+@media (min-width: 1200px) {
+.community__right-bar, # user-lists, #waitlist,
+.community .friends, # rcs-menu {
+    altura: 90,63%! importante;
+}
+}
+
+@media (min-width: 1600px) {
+.community__right-bar, # user-lists, #waitlist,
+.community .friends, # rcs-menu {
+    altura: 92,33%! importante;
+}
+}
+
+@media (min-width: 1800px) {
+.community__right-bar, # user-lists, #waitlist,
+.community .friends, # rcs-menu {
+    altura: 93,7%! importante;
+}
+}
+
+@media (min-width: 1920px) {
+.community__right-bar, # user-lists, #waitlist,
+.community .friends, # rcs-menu {
+    altura: 93,7%! importante;
+}
+}
+
+@media (min-width: 992px) {
+.community__bottom {
+    largura: 100%;
+}
+}
+
+# rs-toggle-sidebar {
+	exibir: nenhum! importante;
+}
+
+@media (min-width: 768px) {
+[data-view = room] .bottom__playback-meta {
+	largura: 30%;
+}
+}
+
+.friends .jspContainer {
+    altura: 730px! importante;
+}
+
+@media (min-width: 1200px) {
+.friends .jspContainer {
+    altura: 465px! importante;
+}
+}
+
+@media (min-width: 1600px) {
+.friends .jspContainer {
+    altura: 554 px! importante;
+}
+}
+
+@media (min-width: 1800px) {
+.friends .jspContainer {
+    altura: 730px! importante;
+}
+}
+
+@media (min-width: 1920px) {
+.friends .jspContainer {
+    altura: 730px! importante;
+}
+}
+
+.rs-skip-button {
+margin-left: 0px! important;
+}
+
+
+.rsrow: hover {
+    background: gradiente linear (hsla (220,10%, 10%, 0,5), hsla (220,10%, 12%, 0,5)) importante;
+}
+
+# waitlist-button .count {
+    cor: #eee! importante;
+}
+
+.share-song-item.share-facebook {
+    cor: # 983b90! importante;
+}
+    
+.share-song-item.share-twitter {
+    cor: # f11de7! importante;
+}
+
+.share-song-item.share-facebook: hover,
+.share-song-item.share-twitter: hover {
+    cor: #eee! importante;
+}
+
+# user-friends .tab-menu button {
+    largura: 100%! importante;
+}
+
+# user-friends .tab-menu button .count {
+    top: 16px! importante;
+    margin-left: 5px! important;
+}
+
+botão do menu .tab {
+    largura: 50%! importante;
+}
+    
+# user-view .user-content .tab-menu button.avatars,
+# user-view .user-content .tab-menu button.badges,
+# user-view .user-content .tab-menu button.misc,
+# user-view .user-content .tab-menu button: last-child.avatars,
+# user-view .user-content .tab-menu button: last-child.badges,
+# user-view .user-content .tab-menu button: last-child.misc {
+    largura: 96%! importante;
+}
+    
+# user-view # user-inventory.user-content .tab-menu button.history,
+# user-view # user-inventory.user-content .tab-menu button: last-child {
+    largura: 96%! importante;
+}
